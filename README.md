@@ -39,7 +39,59 @@ Kemudian jika NID dibagikan pada setiap subnet pada topologi, akan menjadi sebag
 
 ![image](https://user-images.githubusercontent.com/48936125/101468712-5df20b80-3976-11eb-9afe-df7c56953f12.png)
 
-Untuk routing pada CPT, diberikan 
+Untuk routing pada CPT, diberikan static route pada semua router yang ada dengan route sebagai berikut untuk setiap router:
+
+**SURABAYA**
+```
+192.168.27.152/30 via 192.168.27.150
+192.168.27.0/25 via 192.168.27.150
+192.168.0.0/21 via 192.168.27.150
+192.168.12.0/22 via 192.168.27.150
+192.168.27.156/30 via 192.168.27.146
+192.168.24.0/23 via 192.168.27.146
+192.168.27.128/28 via 192.168.27.146
+192.168.16.0/22 via 192.168.27.146
+10.151.79.68/30 via 192.168.27.146
+192.168.26.0/24 via 192.168.27.146
+192.168.20.0/22 via 192.168.27.146
+```
+
+**BATU**
+```
+0.0.0.0/0 via 192.168.27.145
+192.168.27.128/28 via 192.168.24.2
+10.151.79.68/30 via 192.168.27.158
+192.168.26.0/24 via 192.168.27.158
+192.168.20.0/22 via 192.168.27.158
+```
+
+**PASURUAN**
+```
+0.0.0.0/0 via 192.168.27.149
+192.168.27.0/25 via 192.168.27.154
+192.168.0.0/21 via 192.168.27.154
+```
+
+**KEDIRI**
+```
+0.0.0.0/0 via 192.168.27.157
+192.168.20.0/22 via 192.168.26.2
+```
+
+**MADIUN**
+```
+0.0.0.0/0 via 192.168.24.1
+```
+
+**PROBOLINGGO**
+```
+0.0.0.0/0 via 192.168.27.153
+```
+
+**BLITAR**
+```
+0.0.0.0/0 via 192.168.26.1
+```
 
 ## CIDR (Classless Inter Domain Routing) - UML
 
