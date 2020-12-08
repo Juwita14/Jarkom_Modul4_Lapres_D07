@@ -39,6 +39,8 @@ Kemudian jika NID dibagikan pada setiap subnet pada topologi, akan menjadi sebag
 
 ![image](https://user-images.githubusercontent.com/48936125/101468712-5df20b80-3976-11eb-9afe-df7c56953f12.png)
 
+Untuk routing pada CPT, diberikan 
+
 ## CIDR (Classless Inter Domain Routing) - UML
 
 Menggabungkan subnet-subnet paling bawah dalam topologi, berikut penggabungannya:
