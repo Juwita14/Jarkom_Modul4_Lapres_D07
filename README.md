@@ -6,7 +6,7 @@ Laporan Resmi Modul 4 Praktikum Jaringan Komputer 2020
 #
 
 ## Pembagian Subnet
-Untuk server **MOJOKERTO** dan **MALANG**, tidak perlu diikutkan dalam subnet pembagian IP, karena mereka menggunakan **NID DMX: 10.151.79.64/29**, di mana akan dipecah masing-masing mendapatkan NID **10.151.79.64/30** dan **10.151.79.68/30**.
+Untuk server **MOJOKERTO** dan **MALANG**, tidak perlu diikutkan dalam subnet pembagian IP, karena mereka menggunakan **NID DMZ: 10.151.79.64/29**, di mana akan dipecah masing-masing mendapatkan NID **10.151.79.64/30** dan **10.151.79.68/30**.
 
 ![image](https://user-images.githubusercontent.com/48936125/101467296-b32d1d80-3974-11eb-8dab-0d99ffb770ff.png)
 
